@@ -1,0 +1,26 @@
+
+<div class="container">
+  <form #postForm="ngForm" (ngSubmit)="SendNewPost(postForm)"  class="form-group">
+    <div class="row mt-5">
+      <textarea class="col-6 offset-3 form-control" rows="5" name="postText" ngModel [(ngModel)]="textArea" (keyup)="textAreaChanged()" required> </textarea>
+    </div>
+    <div class="row">
+      <label class="col-3 offset-5"> Remaining characters: {{character}}</label>
+    </div>
+
+    <div class="row">
+      <label class="col-2 offset-5" > Note Style:
+        <select name="stile" ngModel required class="form-control">
+          <option [value]="style1" selected="selected"> Style 1</option>
+          <option [value]="style2"> Style 2</option>
+          <option [value]="style3"> Style 3</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="row">
+      <button class="col-2 offset-7 btn btn-primary form-control" type="submit"> INSERT </button>
+    </div>
+  </form>
+</div>
+

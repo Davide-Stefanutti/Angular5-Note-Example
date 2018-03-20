@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* ---------------- */
+.style1{
+  color: blue;
+  font-family: "Arial Black";
+}
+
+.style2{
+  color: red;
+  font-family: "Comic Sans MS";
+}
+
+.style3{
+  color: green;
+  font-family: "Verdana";
+}
+
+/* --------------- */
+
+.leftForm{
+  float: right;
+}
+
+.scrollable{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height:350px;
+}
