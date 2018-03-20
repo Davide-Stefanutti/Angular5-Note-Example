@@ -1,5 +1,7 @@
 # Angular5 Note Example
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/Davide-Stefanutti/Angular5-Note-Example?branch=master)](https://bettercodehub.com/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
 ## Install dependencies
